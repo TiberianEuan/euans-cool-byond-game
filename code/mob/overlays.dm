@@ -6,7 +6,7 @@ obj/overlay
 		icon = 'features.dmi'
 		layer = FEATURES_LAYER
 	clothes
-		icon = 'clothes.dmi'
+		icon = 'clothing.dmi'
 		layer = CLOTHES_LAYER
 mob/verb
 	wear_clothes()

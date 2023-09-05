@@ -1,6 +1,6 @@
 mob/verb/character_editor()
 	// Main customization menu
-	var/choice = input("Choose an option:", "Character Customization") as null|anything in list("Add Clothing", "Remove Clothing", "Add Features", "Remove Features", "Change Color")
+	var/choice = input("Choose an option:", "Character Customization") as null|anything in list("Add Clothing", "Remove Clothing", "Add Features", "Remove Features") //, "Change Color" *remember to fix later*
 
 	// Option to Add Clothing
 	if(choice == "Add Clothing")
@@ -42,10 +42,10 @@ mob/verb/character_editor()
 
 
 	// Option to Change Color
-	else if(choice == "Change Color")
-		var/selected_overlay_to_color = input("Select an overlay to change its color:", "Change Color") as null|anything in overlays
-		var/selected_color = input("Select a color:", "Change Color") as color|null
-		if(selected_overlay_to_color && selected_color)
-			var/image/I = image(selected_overlay_to_color.icon, selected_overlay_to_color.icon_state)
-			I.color = selected_color
-			overlays += I
+	//else if(choice == "Change Color")
+		//var/selected_overlay_to_color = input("Select an overlay to change its color:", "Change Color") as null|anything in overlays
+		//var/selected_color = input("Select a color:", "Change Color") as color|null
+		//if(selected_overlay_to_color && selected_color)
+			//var/image/I = image(selected_overlay_to_color.icon, selected_overlay_to_color.icon_state)
+			//I.color = selected_color
+			//overlays += I
