@@ -2,11 +2,11 @@ turf/floor
 	var/speed_modifier = 1
 	density = 0
 	// Override the Entered() proc
-	Entered(atom/movable/AM)
+	Crossed(atom/movable/AM)
 		..()
 		if(ismob(AM))  // Check if the entering atom is a mob
 			var/mob/M = AM
-			M.move_delay = M.default_move_delay * speed_modifier  // Modify the step_size
+			M.move_delay = M.base_move_delay * speed_modifier  // Modify the step_size
 
 
     // TYPES OF FLOOR BELOW

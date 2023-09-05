@@ -1,12 +1,12 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 2.000
-LAST_COMPILE_TIME: 1693889350
-DIR: code code\mob code\obj code\turf icons icons\mob icons\turf maps 
+LAST_COMPILE_TIME: 1693902568
+DIR: code code\mob code\mob\humanoid code\obj code\turf icons icons\mob icons\turf maps 
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 515.1613
-WINDOW: byond_game.dm;code\mob\player.dm;code\mob\mob.dm
-FILE: code\mob\mob.dm
+LAST_COMPILE_VERSION: 514.1589
+WINDOW: byond_game.dm;code\mob\player.dm;byond_game.dme;code\mob\mob.dm;code\mob\humanoid\customization.dm;code\mob\overlays.dm
+FILE: code\mob\humanoid\customization.dm
 */
 // END_INTERNALS

@@ -1,5 +1,6 @@
 turf/wall
 	density = 1
+	opacity = 1
 	icon = 'wall.dmi'
 	wood
 		name = "wooden wall"
