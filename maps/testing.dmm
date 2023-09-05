@@ -1,0 +1,32 @@
+"a" = (/turf/wall/grass,/area)
+"b" = (/turf/floor/grass,/area)
+"c" = (/turf/wall/wood,/area)
+"d" = (/turf/floor/stone,/area)
+"e" = (/turf/floor/dirt,/area)
+"f" = (/turf/floor/wood,/area)
+"g" = (/turf/floor/mud,/area)
+"h" = (/obj/start,/turf/floor/wood,/area)
+"i" = (/mob/player,/turf/floor/grass,/area)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaa
+abbbbbbbbbbbbbbbbbba
+abbcccccddbeeeeeeeba
+abbchffcddbeeeeeeeba
+abbcfffcddbbbbbbbbba
+abbcffffddbeeeeeeeba
+abbcfffcddbeeeeeeeba
+abbcfffcddbbbbbbbbba
+abbcccccddbeeeeeeeba
+abbbbbbbbibeeeeeeeba
+abbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbba
+abbbbbbbbbbbbbbbbbba
+abbggggggbbbbbbbbbba
+abbggggggbbbbbbbbbba
+abbggggggbbbbbbbbbba
+abbggggggbbbbbbbbbba
+abbggggggbbbbbbbbbba
+abbbbbbbbbbbbbbbbbba
+aaaaaaaaaaaaaaaaaaaa
+"}

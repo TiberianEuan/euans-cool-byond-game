@@ -1,0 +1,30 @@
+// DM Environment file for byond_game.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "icons"
+#define FILE_DIR "icons/mob"
+#define FILE_DIR "icons/turf"
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "byond_game.dm"
+#include "code\mob\interactions.dm"
+#include "code\mob\mob.dm"
+#include "code\mob\player.dm"
+#include "code\mob\procs.dm"
+#include "code\obj\start.dm"
+#include "code\turf\floor.dm"
+#include "code\turf\wall.dm"
+#include "maps\testing.dmm"
+// END_INCLUDE
+
