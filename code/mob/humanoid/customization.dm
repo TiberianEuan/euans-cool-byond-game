@@ -41,11 +41,11 @@ mob/verb/character_editor()
 		overlays -= selected_feature_to_remove
 
 
-	// Option to Change Color
-	//else if(choice == "Change Color")
-		//var/selected_overlay_to_color = input("Select an overlay to change its color:", "Change Color") as null|anything in overlays
-		//var/selected_color = input("Select a color:", "Change Color") as color|null
-		//if(selected_overlay_to_color && selected_color)
-			//var/image/I = image(selected_overlay_to_color.icon, selected_overlay_to_color.icon_state)
-			//I.color = selected_color
-			//overlays += I
+	//Option to Change Color
+	else if(choice == "Change Color")
+		var/selected_overlay_to_color = input("Select an overlay to change its color:", "Change Color") as null|anything in overlays
+		var/selected_color = input("Select a color:", "Change Color") as color|null
+		if(selected_overlay_to_color && selected_color)
+			var/image/I = image(selected_overlay_to_color.icon, selected_overlay_to_color.icon_state)
+			I.color = selected_color
+			overlays += I
