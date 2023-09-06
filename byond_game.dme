@@ -7,8 +7,12 @@
 
 // BEGIN_FILE_DIR
 #define FILE_DIR .
+#define FILE_DIR "code"
+#define FILE_DIR "code/obj"
+#define FILE_DIR "code/obj/doors"
 #define FILE_DIR "icons"
 #define FILE_DIR "icons/mob"
+#define FILE_DIR "icons/obj"
 #define FILE_DIR "icons/turf"
 // END_FILE_DIR
 
@@ -18,6 +22,9 @@
 
 // BEGIN_INCLUDE
 #include "byond_game.dm"
+#include "code\examine.dm"
+#include "code\lighting.dm"
+#include "code\area\areas.dm"
 #include "code\mob\interactions.dm"
 #include "code\mob\mob.dm"
 #include "code\mob\movement_limit.dm"
@@ -28,8 +35,11 @@
 #include "code\mob\humanoid\customization.dm"
 #include "code\mob\humanoid\features.dm"
 #include "code\obj\start.dm"
+#include "code\obj\zombie_signal.dm"
+#include "code\obj\doors\door.dm"
 #include "code\turf\floor.dm"
 #include "code\turf\wall.dm"
+#include "maps\sunnydale.dmm"
 #include "maps\testing.dmm"
 // END_INCLUDE
 

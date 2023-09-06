@@ -6,14 +6,16 @@
 "f" = (/turf/floor/wood,/area)
 "g" = (/turf/floor/mud,/area)
 "h" = (/obj/start,/turf/floor/wood,/area)
+"i" = (/obj/door,/turf/floor/wood,/area)
+"j" = (/obj/mirror,/turf/floor/wood,/area)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaa
 abbbbbbbbbbbbbbbbbba
 abbcccccddbeeeeeeeba
-abbchffcddbeeeeeeeba
+abbchfjcddbeeeeeeeba
 abbcfffcddbbbbbbbbba
-abbcffffddbeeeeeeeba
+abbcfffiddbeeeeeeeba
 abbcfffcddbeeeeeeeba
 abbcfffcddbbbbbbbbba
 abbcccccddbeeeeeeeba

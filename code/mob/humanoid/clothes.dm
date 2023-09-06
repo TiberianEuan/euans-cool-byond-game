@@ -6,13 +6,13 @@ obj/overlay/clothes/tshirt
 
 obj/overlay/clothes/jeans
     name = "Jeans"
-    desc = "Pair of blue jeans."
+    desc = "Apple bottom jeans... "
     icon_state = "jeans"
 
-obj/overlay/clothes/jacket
-    name = "Jacket"
-    desc = "A stylish jacket."
-    icon_state = "jacket"
+obj/overlay/clothes/boots
+    name = "Furred Boots"
+    desc = "... Boots with the fur (with the fur)"
+    icon_state = "furboots"
 
 obj/overlay/clothes/sweater
     name = "Sweater"
@@ -24,6 +24,13 @@ obj/overlay/clothes/hoodie
     desc = "A comfortable hoodie."
     icon_state = "hoodie"
 
+/* not yet drawn sprites
+
+obj/overlay/clothes/jacket
+    name = "Jacket"
+    desc = "A stylish jacket."
+    icon_state = "jacket"
+
 obj/overlay/clothes/shorts
     name = "Shorts"
     desc = "A pair of shorts."
@@ -31,12 +38,12 @@ obj/overlay/clothes/shorts
 
 obj/overlay/clothes/skirt
     name = "Skirt"
-    desc = "A fashionable skirt."
+    desc = "*points at you* \"FEMBOOY!!\""
     icon_state = "skirt"
 
 obj/overlay/clothes/dress
     name = "Dress"
-    desc = "A beautiful dress."
+    desc = "Address."
     icon_state = "dress"
 
 obj/overlay/clothes/suit
@@ -139,22 +146,4 @@ obj/overlay/clothes/bandana
     desc = "A cool bandana."
     icon_state = "bandana"
 
-obj/overlay/clothes/watch
-    name = "Watch"
-    desc = "A wrist watch."
-    icon_state = "watch"
-
-obj/overlay/clothes/bracelet
-    name = "Bracelet"
-    desc = "A stylish bracelet."
-    icon_state = "bracelet"
-
-obj/overlay/clothes/earrings
-    name = "Earrings"
-    desc = "A pair of earrings."
-    icon_state = "earrings"
-
-obj/overlay/clothes/necklace
-    name = "Necklace"
-    desc = "A beautiful necklace."
-    icon_state = "necklace"
+*/

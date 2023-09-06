@@ -1,14 +1,3 @@
-// Define the limb_holder object
-obj/limb_holder
-	name = "Limb Holder"
-	desc = "Why the hell can you see this?"
-	icon = 'placeholders.dmi'  // Set an icon for debugging, it won't be visible to players
-	icon_state = "obj" // for just in case if players actually see it at some point
-	invisibility = 101  // Make it invisible to players
-
-
-
-
 // OH MY GOD ITS HIM
 mob/player
 	icon = 'player.dmi'
