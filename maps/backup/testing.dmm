@@ -4,7 +4,7 @@
 "d" = (/turf/floor/stone,/area/outside)
 "e" = (/turf/floor/dirt,/area/outside)
 "f" = (/obj/start,/turf/floor/wood,/area/inside)
-"g" = (/mob/player/zombie,/turf/floor/mud,/area/outside)
+"g" = (/mob/zombie,/turf/floor/mud,/area/outside)
 "h" = (/turf/floor/wood,/area/inside)
 "i" = (/obj/mirror,/turf/floor/wood,/area/inside)
 "j" = (/obj/door,/turf/floor/wood,/area/inside)

@@ -45,7 +45,7 @@ proc/get_predicted_time()
 // Override the Stat proc for the mob type
 /mob/Stat()
     ..()
-    HasWatch()
+    HasWatch(src)
     var predicted_time = get_predicted_time()
     if(src.accurate_time)
         stat("Time ", "[fictional_hour]:[fictional_minute]:[fictional_second]")
@@ -57,11 +57,18 @@ world/New()
     ..()
     spawn update_fictional_time()
 
-/mob/proc/HasWatch()
-	if(typesof(/obj/clock) in inventory || typesof(/obj/clock) in oview(src))
-		accurate_time = 1
-	else
-		accurate_time = 0
+/mob/proc/HasWatch(src)
+    var/found_clock = FALSE
+    for(var/obj/O in inventory)
+        if(istype(O, /obj/clock))
+            found_clock = TRUE
+            break
+    if(!found_clock)
+        for(var/obj/O in oview(src))
+            if(istype(O, /obj/clock))
+                found_clock = TRUE
+                break
+    accurate_time = found_clock ? 1 : 0
 
 obj
 	clock
