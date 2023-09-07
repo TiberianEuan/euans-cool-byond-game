@@ -1,5 +1,4 @@
 // time.dm
-
 mob
 	var
 		accurate_time = 0
@@ -13,7 +12,7 @@ var/global/day
 // Define the time system proc
 proc/update_fictional_time()
     while(TRUE)
-        sleep(10) // Sleep for 10 deciseconds (1 second)
+        sleep(1) // Sleep for 10 deciseconds (1 second)
         fictional_second++
 
         if(fictional_second >= 60)
@@ -30,6 +29,8 @@ proc/update_fictional_time()
 
 // Function to return the predicted time based on the current fictional_hour
 proc/get_predicted_time()
+    if(!usr.canseesky)
+        return "Unknown"
     switch(fictional_hour)
         if(0 to 2) return "Midnight"
         if(3 to 5) return "Night"
@@ -44,19 +45,20 @@ proc/get_predicted_time()
 // Override the Stat proc for the mob type
 /mob/Stat()
     ..()
+    HasWatch()
     var predicted_time = get_predicted_time()
     if(src.accurate_time)
-        stat("Current Time", "[fictional_hour]:[fictional_minute]:[fictional_second]")
+        stat("Time ", "[fictional_hour]:[fictional_minute]:[fictional_second]")
     else
-        stat("Predicted Time", predicted_time)
+        stat("Time ", predicted_time)
 
 // Server initialization
 world/New()
     ..()
     spawn update_fictional_time()
 
-/mob/HasWatch()
-	if(typesof(/obj/clock) in inventory || typesof(/obj/clock) in oview(client))
+/mob/proc/HasWatch()
+	if(typesof(/obj/clock) in inventory || typesof(/obj/clock) in oview(src))
 		accurate_time = 1
 	else
 		accurate_time = 0
@@ -65,5 +67,5 @@ obj
 	clock
 		name = "clock"
 		desc = "tells the time."
-		icon = 'clocks.dmi'
+		icon = 'clock.dmi'
 		icon_state = "clock"

@@ -1,12 +1,12 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 0.750
-LAST_COMPILE_TIME: 1694044321
+LAST_COMPILE_TIME: 1694051572
 DIR: code code\area code\mob code\mob\humanoid code\obj code\obj\doors code\turf icons icons\mob icons\obj icons\turf maps 
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 515.1613
-WINDOW: code\area\areas.dm;code\mob\interactions.dm;code\mob\mob.dm;byond_game.dm;code\lighting.dm;icons\blackness.dmi;code\mob\player.dm;byond_game.dme;code\obj\zombie_signal.dm;code\examine.dm;code\mob\overlays.dm;code\mob\procs.dm;code\obj\start.dm;maps\testing.dmm;code\time.dm;code\mob\inventory.dm
-FILE: code\mob\inventory.dm
+WINDOW: code\mob\player.dm;code\mob\inventory.dm;code\time.dm;code\mob\mob.dm;code\area\areas.dm;maps\sunnydale.dmm;maps\testing.dmm;byond_game.dm;code\mob\violence.dm;code\mob\ghost.dm
+FILE: code\mob\violence.dm
 */
 // END_INTERNALS

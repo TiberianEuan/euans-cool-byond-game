@@ -8,6 +8,8 @@
 "h" = (/turf/floor/wood,/area/inside)
 "i" = (/obj/mirror,/turf/floor/wood,/area/inside)
 "j" = (/obj/door,/turf/floor/wood,/area/inside)
+"k" = (/obj/clock,/turf/floor/wood,/area/inside)
+"l" = (/mob/player,/turf/floor/dirt,/area/outside)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaa
@@ -15,9 +17,9 @@ abbbbbbbbbbbbbbbbbba
 abbcccccddbeeeeeeeba
 abbcfhicddbeeeeeeeba
 abbchhhcddbbbbbbbbba
-abbchhhjddbeeeeeeeba
+abbchhhjddbeeeeleeba
 abbchhhcddbeeeeeeeba
-abbchhhcddbbbbbbbbba
+abbckhhcddbbbbbbbbba
 abbcccccddbeeeeeeeba
 abbbbbbbbbbeeeeeeeba
 abbbbbbbbbbbbbbbbbba
