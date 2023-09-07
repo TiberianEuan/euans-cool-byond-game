@@ -1,12 +1,12 @@
 // BEGIN_INTERNALS
 /*
-MAP_ZOOM: 2.000
-LAST_COMPILE_TIME: 1693976100
-DIR: code code\area code\mob code\mob\humanoid code\obj code\obj\doors code\turf icons icons\mob icons\obj icons\turf maps External 
+MAP_ZOOM: 0.750
+LAST_COMPILE_TIME: 1694044321
+DIR: code code\area code\mob code\mob\humanoid code\obj code\obj\doors code\turf icons icons\mob icons\obj icons\turf maps 
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 515.1613
-WINDOW: code\area\areas.dm;code\mob\interactions.dm;code\mob\mob.dm;byond_game.dm;code\lighting.dm;icons\blackness.dmi;code\mob\player.dm;byond_game.dme;code\obj\zombie_signal.dm;code\examine.dm
-FILE: code\examine.dm
+WINDOW: code\area\areas.dm;code\mob\interactions.dm;code\mob\mob.dm;byond_game.dm;code\lighting.dm;icons\blackness.dmi;code\mob\player.dm;byond_game.dme;code\obj\zombie_signal.dm;code\examine.dm;code\mob\overlays.dm;code\mob\procs.dm;code\obj\start.dm;maps\testing.dmm;code\time.dm;code\mob\inventory.dm
+FILE: code\mob\inventory.dm
 */
 // END_INTERNALS

@@ -1,7 +1,11 @@
 area
+	invisibility = 101
 	Entered(O)
 		if(desc) O << desc
 		return ..()
 
 	outside
-		desc = "The air feels fresher than before."
+		zombiespawns
+
+	inside
+		desc = "You step inside."
